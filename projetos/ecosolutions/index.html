@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-index.css">
     <!--bootstrap css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -42,13 +42,12 @@
             <h1 class="primary-text text-white">Venha fazer parte de um </h1>
             <h2 class="future ">futuro verde!</h2>
             <div class="btns">
-                <button type="button" data-toggle="modal" data-target="#modalCadastro"> Se
-                    inscreva</button>
-                <button type="button" data-toggle="modal" data-target="#modalEntrar">Entrar</button>
+                <button type="button" data-toggle="modal" data-target="#modalCadastro"> Cadastre-se</button>
+                <button type="button" data-toggle="modal" data-target="#modalEntrar">Entre</button>
             </div>
             <div class="row mt-5">
                 <div class="col-md-12 text-center">
-                    <a class="link-blog" href="blog.html">Saiba mais porque é tão importante sau participação</a>
+                    <a class="link-blog" href="blog.html">Entenda porque você é importante para mudar o mundo</a>
                 </div>
             </div>
         </div>
@@ -80,9 +79,9 @@
                             </div>
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="cpf">CPF</label>
+                                    <label for="cpf">CPF/CNPJ</label>
                                     <input type="text" class="form-control" name="cpf" id="cpf"
-                                        aria-describedby="InputCPF" placeholder="000.000.000-00">
+                                        aria-describedby="InputCPF" placeholder="">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="celular">Celular</label>
@@ -108,7 +107,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 mb-3">
-                                    <label for="validationCustom05">CEP</label>
+                                    <label for="validationCustom05">CEP/CNPJ</label>
                                     <input type="text" class="form-control" id="validationCustom05" placeholder="CEP"
                                         required>
                                     <div class="invalid-feedback">
@@ -159,9 +158,9 @@
                         <form>
                             <div class="row">
                                 <div class="form-group col-md-12">
-                                    <label for="cpf">CPF</label>
+                                    <label for="cpf">CPF/CNPJ</label>
                                     <input type="text" class="form-control" name="cpf" id="cpf"
-                                        aria-describedby="InputCPF" placeholder="000.000.000-00">
+                                        aria-describedby="InputCPF" placeholder="">
                                 </div>
                             </div>
 
@@ -177,9 +176,12 @@
                             </div>
                         </form>
                     </div>
-                    <div class="modal-footer">
+                    <div class="modal-footer justify-content-between">
+                        <a href="empresa.html">
+                            <button type="button" class="btn btn-cadastro-login">Entrar/Empresa</button>
+                        </a>
                         <a href="inicio.html">
-                            <button type="button" class="btn btn-cadastro-login">Entrar</button>
+                            <button type="button" class="btn btn-cadastro-login">Entrar/Consumidor</button>
                         </a>
                     </div>
                 </div>
